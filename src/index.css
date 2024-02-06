@@ -1,0 +1,42 @@
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.usersPosts{
+  background-color: #61dafb;
+  width: 850px;
+  height: 200px;
+  border: 2px solid black;
+  font-size: 25px;
+  font-style: italic;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.postDetails{
+  font-size: 30px;
+  width: 870px;
+  border: 2px solid black;
+  background-color: #ef7474;
+
+}
+body{
+  background-color: #f5e6af;
+}
+
+button{
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color: #151ab9;
+  transition: 1.2s;
+
+}

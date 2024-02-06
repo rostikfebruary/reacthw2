@@ -26,6 +26,7 @@ const Posts = () => {
 
     return (
         <div>
+
             {posts.map(userPost => <PostOfUser key={userPost.id} userPost={userPost} currentPost={currentPost}  />)}
             <hr/>
             {postDetails !== null && <PostDetails postDetails={postDetails}/>}
